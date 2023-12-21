@@ -1,0 +1,47 @@
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/adi673/test_ws/build/my_robo_chassis
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/config/ball_tracker_params_robot.yaml
+-- Symlinking: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/config/ball_tracker_params_sim.yaml
+-- Symlinking: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/config/drive_bot.rviz
+-- Symlinking: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/config/empty.yaml
+-- Symlinking: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/config/gaz_ros2_ctl_use_sim.yaml
+-- Symlinking: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/config/gazebo_params.yaml
+-- Symlinking: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/config/joystick.yaml
+-- Symlinking: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/config/main.rviz
+-- Symlinking: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/config/map.rviz
+-- Symlinking: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/config/mapper_params_online_async.yaml
+-- Symlinking: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/config/my_controllers.yaml
+-- Symlinking: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/config/nav2_params.yaml
+-- Symlinking: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/config/twist_mux.yaml
+-- Symlinking: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/config/view_bot.rviz
+-- Symlinking: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/description/robot.urdf.xacro
+-- Symlinking: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/description/robot_core.xacro
+-- Symlinking: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/launch/rsp.launch.py
+-- Symlinking: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/worlds/empty.world
+-- Symlinking: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/worlds/obstacles.world
+-- Symlinking: /home/adi673/test_ws/install/my_robo_chassis/share/ament_index/resource_index/package_run_dependencies/my_robo_chassis
+-- Symlinking: /home/adi673/test_ws/install/my_robo_chassis/share/ament_index/resource_index/parent_prefix_path/my_robo_chassis
+-- Symlinking: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/environment/ament_prefix_path.sh
+-- Symlinking: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/environment/ament_prefix_path.dsv
+-- Symlinking: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/environment/path.sh
+-- Symlinking: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/environment/path.dsv
+-- Symlinking: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/local_setup.bash
+-- Symlinking: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/local_setup.sh
+-- Symlinking: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/local_setup.zsh
+-- Symlinking: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/local_setup.dsv
+-- Symlinking: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/package.dsv
+-- Symlinking: /home/adi673/test_ws/install/my_robo_chassis/share/ament_index/resource_index/packages/my_robo_chassis
+-- Symlinking: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/cmake/my_robo_chassisConfig.cmake
+-- Symlinking: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/cmake/my_robo_chassisConfig-version.cmake
+-- Symlinking: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/package.xml

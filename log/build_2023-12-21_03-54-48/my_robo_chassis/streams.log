@@ -1,0 +1,36 @@
+[0.438s] Invoking command in '/home/adi673/test_ws/build/my_robo_chassis': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adi673/test_ws/build/my_robo_chassis -- -j4 -l4
+[1.152s] Invoked command in '/home/adi673/test_ws/build/my_robo_chassis' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adi673/test_ws/build/my_robo_chassis -- -j4 -l4
+[1.293s] Invoking command in '/home/adi673/test_ws/build/my_robo_chassis': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adi673/test_ws/build/my_robo_chassis
+[1.312s] -- Install configuration: ""
+[1.314s] -- Execute custom install script
+[1.345s] -- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/config/my_test_env/model.config
+[1.346s] -- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/config/my_test_env/model.sdf
+[1.348s] -- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/config/my_world.world/model.config
+[1.351s] -- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/config/my_world.world/model.sdf
+[1.354s] -- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/description/gazebo_control.xacro
+[1.356s] -- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/description/inertial_macros.xacro
+[1.358s] -- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/description/lidar.xacro
+[1.359s] -- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/description/robot.urdf.xacro
+[1.361s] -- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/description/robot_core.xacro
+[1.372s] -- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/launch/launch_sim.launch.py
+[1.396s] -- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/launch/rsp.launch.py
+[1.410s] -- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/launch/start_ur_world_launch.py
+[1.428s] -- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/worlds/empty.world
+[1.429s] -- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/worlds/obstacles.world
+[1.430s] -- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/worlds/test_world1.world
+[1.430s] -- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/ament_index/resource_index/package_run_dependencies/my_robo_chassis
+[1.431s] -- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/ament_index/resource_index/parent_prefix_path/my_robo_chassis
+[1.432s] -- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/environment/ament_prefix_path.sh
+[1.432s] -- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/environment/ament_prefix_path.dsv
+[1.436s] -- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/environment/path.sh
+[1.436s] -- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/environment/path.dsv
+[1.438s] -- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/local_setup.bash
+[1.439s] -- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/local_setup.sh
+[1.440s] -- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/local_setup.zsh
+[1.441s] -- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/local_setup.dsv
+[1.441s] -- Symlinking: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/package.dsv
+[1.478s] -- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/ament_index/resource_index/packages/my_robo_chassis
+[1.478s] -- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/cmake/my_robo_chassisConfig.cmake
+[1.479s] -- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/cmake/my_robo_chassisConfig-version.cmake
+[1.480s] -- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/package.xml
+[1.484s] Invoked command in '/home/adi673/test_ws/build/my_robo_chassis' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adi673/test_ws/build/my_robo_chassis

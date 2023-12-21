@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/my_robo_chassis/my_robo_chassis.egg-info
+writing ../../build/my_robo_chassis/my_robo_chassis.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_robo_chassis/my_robo_chassis.egg-info/dependency_links.txt
+writing entry points to ../../build/my_robo_chassis/my_robo_chassis.egg-info/entry_points.txt
+writing requirements to ../../build/my_robo_chassis/my_robo_chassis.egg-info/requires.txt
+writing top-level names to ../../build/my_robo_chassis/my_robo_chassis.egg-info/top_level.txt
+writing manifest file '../../build/my_robo_chassis/my_robo_chassis.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_robo_chassis/my_robo_chassis.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_robo_chassis/my_robo_chassis.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/adi673/test_ws/build/my_robo_chassis/build
+creating /home/adi673/test_ws/build/my_robo_chassis/build/lib
+creating /home/adi673/test_ws/build/my_robo_chassis/build/lib/my_robo_chassis
+copying my_robo_chassis/__init__.py -> /home/adi673/test_ws/build/my_robo_chassis/build/lib/my_robo_chassis
+running install
+running install_lib
+creating /home/adi673/test_ws/install/my_robo_chassis/lib/python3.10/site-packages/my_robo_chassis
+copying /home/adi673/test_ws/build/my_robo_chassis/build/lib/my_robo_chassis/__init__.py -> /home/adi673/test_ws/install/my_robo_chassis/lib/python3.10/site-packages/my_robo_chassis
+byte-compiling /home/adi673/test_ws/install/my_robo_chassis/lib/python3.10/site-packages/my_robo_chassis/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/adi673/test_ws/install/my_robo_chassis/share/ament_index
+creating /home/adi673/test_ws/install/my_robo_chassis/share/ament_index/resource_index
+creating /home/adi673/test_ws/install/my_robo_chassis/share/ament_index/resource_index/packages
+copying resource/my_robo_chassis -> /home/adi673/test_ws/install/my_robo_chassis/share/ament_index/resource_index/packages
+copying package.xml -> /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis
+running install_egg_info
+Copying ../../build/my_robo_chassis/my_robo_chassis.egg-info to /home/adi673/test_ws/install/my_robo_chassis/lib/python3.10/site-packages/my_robo_chassis-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/adi673/test_ws/build/my_robo_chassis/install.log'

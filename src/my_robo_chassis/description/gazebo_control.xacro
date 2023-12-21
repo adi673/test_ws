@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <gazebo>
+    <plugin name="wheel_drive_controller" filename="libgazebo_ros_diff_drive.so">
+
+      <!-- wheels -->
+      <num_wheel_pairs>2</num_wheel_pairs>
+      <left_joint>left_front_wheel_joint</left_joint>
+      <left_joint>left_back_wheel_joint</left_joint>
+      <right_joint>right_front_wheel_joint</right_joint>
+      <right_joint>right_back_wheel_joint</right_joint>
+
+      <!-- kinematics -->
+      <wheel_separation>0.38</wheel_separation>
+      <wheel_diameter>0.2</wheel_diameter>
+      <max_wheel_torque>100.0</max_wheel_torque>
+      <max_wheel_acceleration>10.0</max_wheel_acceleration>
+
+      <!-- odometry  --> 
+      <odometry_source>1</odometry_source>
+      <odometry_frame>odom</odometry_frame>
+      <robot_base_frame>ebot_base_link</robot_base_frame>
+
+      <!-- topic & re remappings -->
+      <ros>
+        <namespace>/</namespace>
+        <remapping>/cmd_vel:=cmd_vel</remapping>
+        <remapping>/odom:=odom</remapping>
+      </ros>
+
+      <publish_odom>true</publish_odom>
+      <publish_odom_tf>true</publish_odom_tf>
+      <publish_wheel_tf>true</publish_wheel_tf>
+      <update_rate>100.0</update_rate>
+      <!-- <update_rate>100.0</update_rate> -->
+    </plugin>
+  </gazebo>
+  <gazebo reference="left_front_wheel">
+    <material>Gazebo/Blue</material>
+    <kp>1e15</kp>
+    <kd>1e14</kd>
+    <!-- <mu1>1.0</mu1>
+    <mu2>1.0</mu2> -->
+    <fdir1>0 0 1</fdir1>
+  </gazebo>
+
+  <gazebo reference="right_front_wheel">
+    <material>Gazebo/Blue</material>
+    <kp>1e15</kp>
+    <kd>1e14</kd>
+    <!-- <mu1>1.0</mu1>
+    <mu2>1.0</mu2> -->
+    <fdir1>0 0 1</fdir1>
+  </gazebo>
+
+  <gazebo reference="left_back_wheel">
+    <material>Gazebo/Blue</material>
+    <kp>1e15</kp>
+    <kd>1e14</kd>
+    <!-- <mu1>1.0</mu1>
+    <mu2>1.0</mu2> -->
+    <fdir1>0 0 1</fdir1>
+  </gazebo>
+
+  <gazebo reference="right_back_wheel">
+    <material>Gazebo/Blue</material>
+    <kp>1e15</kp>
+    <kd>1e14</kd>
+    <!-- <mu1>1.0</mu1>
+    <mu2>1.0</mu2> -->
+    <fdir1>0 0 1</fdir1>
+  </gazebo>
+
+
+</robot>

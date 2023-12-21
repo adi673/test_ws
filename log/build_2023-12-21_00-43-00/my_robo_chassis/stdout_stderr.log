@@ -1,0 +1,31 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/config/my_test_env/model.config
+-- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/config/my_test_env/model.sdf
+-- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/config/my_world.world/model.config
+-- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/config/my_world.world/model.sdf
+-- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/description/gazebo_control.xacro
+-- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/description/inertial_macros.xacro
+-- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/description/robot.urdf.xacro
+-- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/description/robot_core.xacro
+-- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/launch/launch_sim.launch.py
+-- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/launch/rsp.launch.py
+-- Symlinking: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/launch/start_ur_world_launch.py
+-- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/worlds/empty.world
+-- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/worlds/obstacles.world
+-- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/worlds/test_world1.world
+-- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/ament_index/resource_index/package_run_dependencies/my_robo_chassis
+-- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/ament_index/resource_index/parent_prefix_path/my_robo_chassis
+-- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/environment/path.sh
+-- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/environment/path.dsv
+-- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/local_setup.bash
+-- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/local_setup.sh
+-- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/local_setup.zsh
+-- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/local_setup.dsv
+-- Symlinking: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/package.dsv
+-- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/ament_index/resource_index/packages/my_robo_chassis
+-- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/cmake/my_robo_chassisConfig.cmake
+-- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/cmake/my_robo_chassisConfig-version.cmake
+-- Up-to-date symlink: /home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/package.xml

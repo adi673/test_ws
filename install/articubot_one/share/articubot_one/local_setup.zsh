@@ -1,0 +1,1 @@
+/home/adi673/test_ws/build/articubot_one/ament_cmake_environment_hooks/local_setup.zsh

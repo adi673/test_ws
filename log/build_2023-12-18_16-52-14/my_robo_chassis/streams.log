@@ -1,0 +1,16 @@
+[2.340s] Invoking command in '/home/adi673/test_ws/build/my_robo_chassis': PYTHONPATH=/home/adi673/test_ws/build/my_robo_chassis/prefix_override:/home/adi673/test_ws/install/my_robo_chassis/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/adi673/test_ws/build/my_robo_chassis/build --no-deps install_data
+[2.980s] running develop
+[3.397s] running egg_info
+[3.398s] writing my_robo_chassis.egg-info/PKG-INFO
+[3.398s] writing dependency_links to my_robo_chassis.egg-info/dependency_links.txt
+[3.399s] writing entry points to my_robo_chassis.egg-info/entry_points.txt
+[3.399s] writing requirements to my_robo_chassis.egg-info/requires.txt
+[3.400s] writing top-level names to my_robo_chassis.egg-info/top_level.txt
+[3.404s] reading manifest file 'my_robo_chassis.egg-info/SOURCES.txt'
+[3.406s] writing manifest file 'my_robo_chassis.egg-info/SOURCES.txt'
+[3.409s] running build_ext
+[3.409s] Creating /home/adi673/test_ws/install/my_robo_chassis/lib/python3.10/site-packages/my-robo-chassis.egg-link (link to .)
+[3.411s] 
+[3.411s] Installed /home/adi673/test_ws/build/my_robo_chassis
+[3.412s] running install_data
+[3.498s] Invoked command in '/home/adi673/test_ws/build/my_robo_chassis' returned '0': PYTHONPATH=/home/adi673/test_ws/build/my_robo_chassis/prefix_override:/home/adi673/test_ws/install/my_robo_chassis/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/adi673/test_ws/build/my_robo_chassis/build --no-deps install_data

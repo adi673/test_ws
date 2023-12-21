@@ -1,0 +1,214 @@
+[4.094s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[4.094s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f2770075de0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f2770075270>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f2770075270>>)
+[4.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.323s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/adi673/test_ws'
+[4.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.360s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.360s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.360s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.360s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.360s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.361s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.361s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.361s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.361s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.361s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.362s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.362s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.362s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.362s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.362s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.363s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.363s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.363s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.363s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.363s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.363s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.363s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.363s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.364s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.364s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.364s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.364s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.364s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['ignore', 'ignore_ament_install']
+[4.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ignore'
+[4.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ignore_ament_install'
+[4.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['colcon_pkg']
+[4.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'colcon_pkg'
+[4.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['colcon_meta']
+[4.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'colcon_meta'
+[4.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['ros']
+[4.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ros'
+[4.375s] DEBUG:colcon.colcon_core.package_identification:Package 'src/articubot_one' with type 'ros.ament_cmake' and name 'articubot_one'
+[4.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robo_chassis) by extensions ['ignore', 'ignore_ament_install']
+[4.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robo_chassis) by extension 'ignore'
+[4.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robo_chassis) by extension 'ignore_ament_install'
+[4.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robo_chassis) by extensions ['colcon_pkg']
+[4.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robo_chassis) by extension 'colcon_pkg'
+[4.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robo_chassis) by extensions ['colcon_meta']
+[4.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robo_chassis) by extension 'colcon_meta'
+[4.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robo_chassis) by extensions ['ros']
+[4.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robo_chassis) by extension 'ros'
+[4.378s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robo_chassis' with type 'ros.ament_cmake' and name 'my_robo_chassis'
+[4.378s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.378s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.378s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.378s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.378s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.719s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.719s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.826s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/adi673/test_ws/install
+[4.875s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/adi673/gazebo2/install
+[4.924s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/adi673/ws/install
+[5.002s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 11 installed packages in /home/adi673/colcon_ws/install
+[5.054s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 397 installed packages in /opt/ros/humble
+[5.059s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.436s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_args' from command line to 'None'
+[5.436s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target' from command line to 'None'
+[5.436s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.436s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_cache' from command line to 'False'
+[5.436s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_first' from command line to 'False'
+[5.436s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_force_configure' from command line to 'False'
+[5.436s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'ament_cmake_args' from command line to 'None'
+[5.436s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_cmake_args' from command line to 'None'
+[5.436s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.437s] DEBUG:colcon.colcon_core.verb:Building package 'articubot_one' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adi673/test_ws/build/articubot_one', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adi673/test_ws/install/articubot_one', 'merge_install': False, 'path': '/home/adi673/test_ws/src/articubot_one', 'symlink_install': False, 'test_result_base': None}
+[5.490s] Level 5:colcon.colcon_core.verb:set package 'my_robo_chassis' build argument 'cmake_args' from command line to 'None'
+[5.490s] Level 5:colcon.colcon_core.verb:set package 'my_robo_chassis' build argument 'cmake_target' from command line to 'None'
+[5.491s] Level 5:colcon.colcon_core.verb:set package 'my_robo_chassis' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.491s] Level 5:colcon.colcon_core.verb:set package 'my_robo_chassis' build argument 'cmake_clean_cache' from command line to 'False'
+[5.491s] Level 5:colcon.colcon_core.verb:set package 'my_robo_chassis' build argument 'cmake_clean_first' from command line to 'False'
+[5.491s] Level 5:colcon.colcon_core.verb:set package 'my_robo_chassis' build argument 'cmake_force_configure' from command line to 'False'
+[5.491s] Level 5:colcon.colcon_core.verb:set package 'my_robo_chassis' build argument 'ament_cmake_args' from command line to 'None'
+[5.491s] Level 5:colcon.colcon_core.verb:set package 'my_robo_chassis' build argument 'catkin_cmake_args' from command line to 'None'
+[5.491s] Level 5:colcon.colcon_core.verb:set package 'my_robo_chassis' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.491s] DEBUG:colcon.colcon_core.verb:Building package 'my_robo_chassis' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adi673/test_ws/build/my_robo_chassis', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adi673/test_ws/install/my_robo_chassis', 'merge_install': False, 'path': '/home/adi673/test_ws/src/my_robo_chassis', 'symlink_install': False, 'test_result_base': None}
+[5.538s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.589s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.590s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adi673/test_ws/src/articubot_one' with build type 'ament_cmake'
+[5.590s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adi673/test_ws/src/articubot_one'
+[5.683s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.685s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.685s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.082s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adi673/test_ws/src/my_robo_chassis' with build type 'ament_cmake'
+[6.084s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adi673/test_ws/src/my_robo_chassis'
+[6.150s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.150s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.639s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adi673/test_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adi673/test_ws/build/articubot_one -- -j4 -l4
+[6.659s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adi673/test_ws/build/my_robo_chassis': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adi673/test_ws/build/my_robo_chassis -- -j4 -l4
+[6.818s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adi673/test_ws/build/my_robo_chassis' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adi673/test_ws/build/my_robo_chassis -- -j4 -l4
+[6.824s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adi673/test_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adi673/test_ws/build/articubot_one -- -j4 -l4
+[6.918s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adi673/test_ws/build/my_robo_chassis': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adi673/test_ws/build/my_robo_chassis
+[6.923s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adi673/test_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adi673/test_ws/build/articubot_one
+[7.008s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robo_chassis)
+[7.009s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adi673/test_ws/build/my_robo_chassis' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adi673/test_ws/build/my_robo_chassis
+[7.079s] Level 1:colcon.colcon_core.environment:checking '/home/adi673/test_ws/install/my_robo_chassis' for CMake module files
+[7.083s] Level 1:colcon.colcon_core.environment:checking '/home/adi673/test_ws/install/my_robo_chassis' for CMake config files
+[7.083s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robo_chassis', 'cmake_prefix_path')
+[7.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/hook/cmake_prefix_path.ps1'
+[7.138s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/hook/cmake_prefix_path.dsv'
+[7.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/hook/cmake_prefix_path.sh'
+[7.142s] Level 1:colcon.colcon_core.environment:checking '/home/adi673/test_ws/install/my_robo_chassis/lib'
+[7.143s] Level 1:colcon.colcon_core.environment:checking '/home/adi673/test_ws/install/my_robo_chassis/bin'
+[7.143s] Level 1:colcon.colcon_core.environment:checking '/home/adi673/test_ws/install/my_robo_chassis/lib/pkgconfig/my_robo_chassis.pc'
+[7.143s] Level 1:colcon.colcon_core.environment:checking '/home/adi673/test_ws/install/my_robo_chassis/lib/python3.10/site-packages'
+[7.143s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robo_chassis', 'pythonpath')
+[7.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/hook/pythonpath.ps1'
+[7.193s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/hook/pythonpath.dsv'
+[7.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/hook/pythonpath.sh'
+[7.195s] Level 1:colcon.colcon_core.environment:checking '/home/adi673/test_ws/install/my_robo_chassis/bin'
+[7.244s] INFO:colcon.colcon_core.shell:Creating package script '/home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/package.ps1'
+[7.248s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/package.dsv'
+[7.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/package.sh'
+[7.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/package.bash'
+[7.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/package.zsh'
+[7.259s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adi673/test_ws/install/my_robo_chassis/share/colcon-core/packages/my_robo_chassis)
+[7.267s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
+[7.268s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adi673/test_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adi673/test_ws/build/articubot_one
+[7.320s] Level 1:colcon.colcon_core.environment:checking '/home/adi673/test_ws/install/articubot_one' for CMake module files
+[7.321s] Level 1:colcon.colcon_core.environment:checking '/home/adi673/test_ws/install/articubot_one' for CMake config files
+[7.322s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
+[7.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adi673/test_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[7.375s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adi673/test_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[7.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adi673/test_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[7.378s] Level 1:colcon.colcon_core.environment:checking '/home/adi673/test_ws/install/articubot_one/bin'
+[7.378s] Level 1:colcon.colcon_core.environment:checking '/home/adi673/test_ws/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[7.378s] Level 1:colcon.colcon_core.environment:checking '/home/adi673/test_ws/install/articubot_one/lib/python3.10/site-packages'
+[7.379s] Level 1:colcon.colcon_core.environment:checking '/home/adi673/test_ws/install/articubot_one/bin'
+[7.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/adi673/test_ws/install/articubot_one/share/articubot_one/package.ps1'
+[7.435s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adi673/test_ws/install/articubot_one/share/articubot_one/package.dsv'
+[7.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/adi673/test_ws/install/articubot_one/share/articubot_one/package.sh'
+[7.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/adi673/test_ws/install/articubot_one/share/articubot_one/package.bash'
+[7.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/adi673/test_ws/install/articubot_one/share/articubot_one/package.zsh'
+[7.441s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adi673/test_ws/install/articubot_one/share/colcon-core/packages/articubot_one)
+[7.503s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robo_chassis)
+[7.553s] Level 1:colcon.colcon_core.environment:checking '/home/adi673/test_ws/install/my_robo_chassis' for CMake module files
+[7.554s] Level 1:colcon.colcon_core.environment:checking '/home/adi673/test_ws/install/my_robo_chassis' for CMake config files
+[7.554s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robo_chassis', 'cmake_prefix_path')
+[7.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/hook/cmake_prefix_path.ps1'
+[7.608s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/hook/cmake_prefix_path.dsv'
+[7.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/hook/cmake_prefix_path.sh'
+[7.611s] Level 1:colcon.colcon_core.environment:checking '/home/adi673/test_ws/install/my_robo_chassis/lib'
+[7.611s] Level 1:colcon.colcon_core.environment:checking '/home/adi673/test_ws/install/my_robo_chassis/bin'
+[7.611s] Level 1:colcon.colcon_core.environment:checking '/home/adi673/test_ws/install/my_robo_chassis/lib/pkgconfig/my_robo_chassis.pc'
+[7.612s] Level 1:colcon.colcon_core.environment:checking '/home/adi673/test_ws/install/my_robo_chassis/lib/python3.10/site-packages'
+[7.612s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robo_chassis', 'pythonpath')
+[7.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/hook/pythonpath.ps1'
+[7.661s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/hook/pythonpath.dsv'
+[7.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/hook/pythonpath.sh'
+[7.667s] Level 1:colcon.colcon_core.environment:checking '/home/adi673/test_ws/install/my_robo_chassis/bin'
+[7.716s] INFO:colcon.colcon_core.shell:Creating package script '/home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/package.ps1'
+[7.718s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/package.dsv'
+[7.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/package.sh'
+[7.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/package.bash'
+[7.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/adi673/test_ws/install/my_robo_chassis/share/my_robo_chassis/package.zsh'
+[7.723s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adi673/test_ws/install/my_robo_chassis/share/colcon-core/packages/my_robo_chassis)
+[7.783s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
+[7.833s] Level 1:colcon.colcon_core.environment:checking '/home/adi673/test_ws/install/articubot_one' for CMake module files
+[7.835s] Level 1:colcon.colcon_core.environment:checking '/home/adi673/test_ws/install/articubot_one' for CMake config files
+[7.835s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
+[7.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adi673/test_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[7.890s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adi673/test_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[7.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adi673/test_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[7.893s] Level 1:colcon.colcon_core.environment:checking '/home/adi673/test_ws/install/articubot_one/bin'
+[7.893s] Level 1:colcon.colcon_core.environment:checking '/home/adi673/test_ws/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[7.894s] Level 1:colcon.colcon_core.environment:checking '/home/adi673/test_ws/install/articubot_one/lib/python3.10/site-packages'
+[7.894s] Level 1:colcon.colcon_core.environment:checking '/home/adi673/test_ws/install/articubot_one/bin'
+[7.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/adi673/test_ws/install/articubot_one/share/articubot_one/package.ps1'
+[7.952s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adi673/test_ws/install/articubot_one/share/articubot_one/package.dsv'
+[7.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/adi673/test_ws/install/articubot_one/share/articubot_one/package.sh'
+[7.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/adi673/test_ws/install/articubot_one/share/articubot_one/package.bash'
+[7.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/adi673/test_ws/install/articubot_one/share/articubot_one/package.zsh'
+[7.958s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adi673/test_ws/install/articubot_one/share/colcon-core/packages/articubot_one)
+[7.958s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.959s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.960s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.960s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.026s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.026s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.026s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.075s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.132s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adi673/test_ws/install/local_setup.ps1'
+[8.136s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/adi673/test_ws/install/_local_setup_util_ps1.py'
+[8.140s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adi673/test_ws/install/setup.ps1'
+[8.199s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adi673/test_ws/install/local_setup.sh'
+[8.202s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/adi673/test_ws/install/_local_setup_util_sh.py'
+[8.204s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adi673/test_ws/install/setup.sh'
+[8.260s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adi673/test_ws/install/local_setup.bash'
+[8.264s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adi673/test_ws/install/setup.bash'
+[8.320s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adi673/test_ws/install/local_setup.zsh'
+[8.322s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adi673/test_ws/install/setup.zsh'
